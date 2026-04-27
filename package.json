@@ -1,0 +1,25 @@
+{
+  "name": "purveyor-of-curiosities",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A portfolio-quality Shopify ecommerce storefront for curated finds, useful goods, and unexpected treasures.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "autoprefixer": "^10.4.20",
+    "next": "latest",
+    "postcss": "^8.4.49",
+    "react": "latest",
+    "react-dom": "latest",
+    "tailwindcss": "^3.4.17",
+    "typescript": "latest"
+  }
+}
