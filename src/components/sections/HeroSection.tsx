@@ -11,7 +11,7 @@ export function HeroSection() {
           <SectionLabel>{siteConfig.tagline}</SectionLabel>
 
           <h1 className="max-w-4xl font-serif text-5xl font-black leading-[0.98] tracking-tight text-ivory md:text-7xl">
-            A Curated Shop for Useful and Unusual Finds
+            The Gateway to Useful and Unusual Finds
           </h1>
 
           <p className="mt-7 max-w-2xl text-lg leading-8 text-sand">
@@ -21,9 +21,9 @@ export function HeroSection() {
           </p>
 
           <div className="mt-9 flex flex-col gap-4 sm:flex-row">
-            <Button href="https://purveyorofcuriosities.store/collections/all">Browse the Collection</Button>
-            <Button href="#archive" variant="secondary">
-              See Recently Claimed Finds
+            <Button href="https://purveyorofcuriosities.store/collections/all">Enter the Store</Button>
+            <Button href="https://purveyorofcuriosities.store/collections/all" variant="secondary">
+              Browse All Finds
             </Button>
           </div>
 
@@ -85,3 +85,4 @@ export function HeroSection() {
     </section>
   );
 }
+
