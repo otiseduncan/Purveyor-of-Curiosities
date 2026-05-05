@@ -1,27 +1,34 @@
+const configuredSiteUrl =
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://purveyor-of-curiosities.vercel.app";
+
+export const siteUrl = configuredSiteUrl.replace(/\/$/, "");
+
 export const siteConfig = {
   name: "Purveyor of Curiosities",
+  url: siteUrl,
   tagline: "Curated finds. Useful goods. Unexpected treasures.",
   shortTagline: "Useful goods. Strange finds.",
   description:
     "A curated resale shop for useful goods, unusual finds, tools, home items, automotive finds, and one-of-one treasures recovered from cleanouts, estates, storage auctions, and turnovers.",
+  locale: "en_US",
 };
 
 export const navLinks = [
   {
     label: "Shop",
-    href: "#shop",
+    href: "/#shop",
   },
   {
     label: "Categories",
-    href: "#categories",
+    href: "/#categories",
   },
   {
     label: "How It Works",
-    href: "#process",
+    href: "/#process",
   },
   {
     label: "Claimed Archive",
-    href: "#archive",
+    href: "/#archive",
   },
 ];
 
@@ -138,8 +145,20 @@ export const claimedArchiveItems = [
 ];
 
 export const footerLinks = [
-  "Shipping Policy",
-  "Returns",
-  "Privacy",
-  "Contact",
+  {
+    label: "Shipping Policy",
+    href: "/shipping-policy",
+  },
+  {
+    label: "Returns",
+    href: "/returns",
+  },
+  {
+    label: "Privacy",
+    href: "/privacy",
+  },
+  {
+    label: "Contact",
+    href: "/contact",
+  },
 ];
