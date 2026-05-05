@@ -1,12 +1,12 @@
-import { navLinks, siteConfig } from "@/data/site";
+﻿import { navLinks, siteConfig } from "@/data/site";
 
 export function Header() {
   return (
     <header className="relative z-10 border-b border-bronze/50 bg-charcoal/85 backdrop-blur-xl">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5 lg:px-8">
-        <a href="#" className="flex items-center gap-3">
+        <a href="https://purveyorofcuriosities.store" className="flex items-center gap-3">
           <div className="flex h-12 w-12 items-center justify-center rounded-full border border-gold/70 bg-espresso text-2xl text-gold shadow-lg shadow-black/20">
-            ◉
+            â—‰
           </div>
 
           <div>

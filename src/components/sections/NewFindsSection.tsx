@@ -1,4 +1,4 @@
-import { ProductCard } from "@/components/product/ProductCard";
+﻿import { ProductCard } from "@/components/product/ProductCard";
 import { Button } from "@/components/ui/Button";
 import { SectionLabel } from "@/components/ui/SectionLabel";
 import { featuredProducts } from "@/data/site";
@@ -24,7 +24,7 @@ export function NewFindsSection() {
             </p>
           </div>
 
-          <Button href="#shop" variant="secondary">
+          <Button href="https://purveyorofcuriosities.store/collections/all" variant="secondary">
             Shop New Arrivals
           </Button>
         </div>

@@ -1,7 +1,22 @@
-const configuredSiteUrl =
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://purveyor-of-curiosities.vercel.app";
+﻿const configuredSiteUrl =
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://purveyorofcuriosities.org";
 
 export const siteUrl = configuredSiteUrl.replace(/\/$/, "");
+
+const configuredStoreUrl =
+  process.env.NEXT_PUBLIC_STORE_URL ?? "https://purveyorofcuriosities.store";
+
+export const storeUrl = configuredStoreUrl.replace(/\/$/, "");
+
+export const storeLinks = {
+  home: storeUrl,
+  collections: `${storeUrl}/collections/all`,
+  cart: `${storeUrl}/cart`,
+  shipping: `${storeUrl}/policies/shipping-policy`,
+  returns: `${storeUrl}/policies/refund-policy`,
+  privacy: `${storeUrl}/policies/privacy-policy`,
+  contact: `${storeUrl}/pages/contact`,
+};
 
 export const siteConfig = {
   name: "Purveyor of Curiosities",
@@ -16,7 +31,7 @@ export const siteConfig = {
 export const navLinks = [
   {
     label: "Shop",
-    href: "/#shop",
+    href: "https://purveyorofcuriosities.store/collections/all",
   },
   {
     label: "Categories",
@@ -45,42 +60,42 @@ export const categories = [
     tag: "category:home-everyday",
     description:
       "Household goods, decor, sealed personal-care items, candles, kitchen finds, and useful everyday products.",
-    icon: "⌂",
+    icon: "âŒ‚",
   },
   {
     title: "The Garage Bin",
     tag: "category:garage-auto",
     description:
       "Automotive accessories, detailing supplies, trim pieces, manuals, and non-safety-critical garage finds.",
-    icon: "◆",
+    icon: "â—†",
   },
   {
     title: "The Tool Crate",
     tag: "category:tools-hardware",
     description:
       "Hand tools, hardware, meters, toolboxes, fasteners, repair supplies, and practical workbench finds.",
-    icon: "⚒",
+    icon: "âš’",
   },
   {
     title: "The Oddity Cabinet",
     tag: "category:collectibles-oddities",
     description:
       "Vintage pieces, strange finds, conversation items, memorabilia, decor, and things you do not see every day.",
-    icon: "✦",
+    icon: "âœ¦",
   },
   {
     title: "The Wire Box",
     tag: "category:electronics-gadgets",
     description:
       "Small electronics, chargers, cables, speakers, gadgets, and devices with clear testing notes.",
-    icon: "⌁",
+    icon: "âŒ",
   },
   {
     title: "The Local Pickup Corner",
     tag: "category:local-pickup",
     description:
       "Large, fragile, heavy, awkward, or low-margin finds available for local pickup only.",
-    icon: "⌖",
+    icon: "âŒ–",
   },
 ];
 
@@ -147,18 +162,18 @@ export const claimedArchiveItems = [
 export const footerLinks = [
   {
     label: "Shipping Policy",
-    href: "/shipping-policy",
+    href: "https://purveyorofcuriosities.store/policies/shipping-policy",
   },
   {
     label: "Returns",
-    href: "/returns",
+    href: "https://purveyorofcuriosities.store/policies/refund-policy",
   },
   {
     label: "Privacy",
-    href: "/privacy",
+    href: "https://purveyorofcuriosities.store/policies/privacy-policy",
   },
   {
     label: "Contact",
-    href: "/contact",
+    href: "https://purveyorofcuriosities.store/pages/contact",
   },
 ];

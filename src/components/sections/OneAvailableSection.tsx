@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/Button";
+﻿import { Button } from "@/components/ui/Button";
 import { SectionLabel } from "@/components/ui/SectionLabel";
 
 export function OneAvailableSection() {
@@ -11,7 +11,7 @@ export function OneAvailableSection() {
               <SectionLabel>One Available</SectionLabel>
 
               <h2 className="font-serif text-4xl font-black text-ivory md:text-5xl">
-                When It’s Gone, It’s Gone.
+                When Itâ€™s Gone, Itâ€™s Gone.
               </h2>
 
               <p className="mt-5 max-w-2xl text-lg leading-8 text-ivory/85">
@@ -31,7 +31,7 @@ export function OneAvailableSection() {
               </p>
 
               <div className="mt-6">
-                <Button href="#shop">Browse One-of-One Finds</Button>
+                <Button href="https://purveyorofcuriosities.store/collections/all">Browse One-of-One Finds</Button>
               </div>
             </div>
           </div>

@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/Button";
+﻿import { Button } from "@/components/ui/Button";
 import { SectionLabel } from "@/components/ui/SectionLabel";
 import { Badge } from "@/components/ui/Badge";
 import { siteConfig, trustItems } from "@/data/site";
@@ -21,7 +21,7 @@ export function HeroSection() {
           </p>
 
           <div className="mt-9 flex flex-col gap-4 sm:flex-row">
-            <Button href="#shop">Browse the Collection</Button>
+            <Button href="https://purveyorofcuriosities.store/collections/all">Browse the Collection</Button>
             <Button href="#archive" variant="secondary">
               See Recently Claimed Finds
             </Button>
@@ -33,7 +33,7 @@ export function HeroSection() {
                 key={item}
                 className="rounded-2xl border border-bronze/50 bg-espresso/80 p-4 text-sm font-semibold text-ivory"
               >
-                <span className="mb-2 block text-lg text-gold">✓</span>
+                <span className="mb-2 block text-lg text-gold">âœ“</span>
                 {item}
               </div>
             ))}
@@ -54,7 +54,7 @@ export function HeroSection() {
 
               <div className="mt-20 flex items-center justify-center">
                 <div className="flex h-44 w-44 items-center justify-center rounded-full border border-gold/50 bg-charcoal/35 text-7xl text-gold">
-                  ◈
+                  â—ˆ
                 </div>
               </div>
 
