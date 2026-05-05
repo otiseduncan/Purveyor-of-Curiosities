@@ -1,2 +1,3 @@
-:HL["/_next/static/chunks/0jxkd3ixkir~w.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"J6b14pEMrwAquvU9Z7byv"}
+:HL["/_next/static/chunks/0mao83rut3.8w.css","style"]
+:HL["https://cdn.shopify.com/s/files/1/0999/4623/4221/files/Wooden_Keepsake_Box.png?v=1777992983","image"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"3bzQ6SLZZbfH_apb2mQ3K"}
