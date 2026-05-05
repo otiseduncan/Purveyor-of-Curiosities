@@ -1,4 +1,4 @@
-import { footerLinks, siteConfig } from "@/data/site";
+﻿import { footerLinks, siteConfig } from "@/data/site";
 
 export function Footer() {
   return (
@@ -13,7 +13,7 @@ export function Footer() {
 
         <div className="flex flex-wrap gap-3 text-sm text-sand">
           {footerLinks.map((link) => (
-            <span key={link}>{link}</span>
+            <a key={link.href} href={link.href} className="hover:text-brass transition-colors">{link.label}</a>
           ))}
         </div>
       </div>
