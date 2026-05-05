@@ -1,4 +1,17 @@
-const categories = [
+﻿const fs = require("fs");
+const path = require("path");
+
+const repo = "C:\\Users\\otisd\\Dev\\Purveyor-of-Curiosities";
+
+const categoriesPath = path.join(
+  repo,
+  "src",
+  "components",
+  "sections",
+  "CategoriesSection.tsx"
+);
+
+const content = String.raw`const categories = [
   {
     code: "HOME",
     title: "The Home Shelf",
@@ -80,3 +93,7 @@ export function CategoriesSection() {
     </section>
   );
 }
+`;
+
+fs.writeFileSync(categoriesPath, content, "utf8");
+console.log("Rewrote:", categoriesPath);
