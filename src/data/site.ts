@@ -56,76 +56,46 @@ export const trustItems = [
 
 export const categories = [
   {
+    code: "HOME",
     title: "The Home Shelf",
     tag: "category:home-everyday",
     description:
       "Household goods, decor, sealed personal-care items, candles, kitchen finds, and useful everyday products.",
-    icon: "HOME",
   },
   {
+    code: "AUTO",
     title: "The Garage Bin",
     tag: "category:garage-auto",
     description:
       "Automotive accessories, detailing supplies, trim pieces, manuals, and non-safety-critical garage finds.",
-    icon: "GARAGE",
   },
   {
+    code: "TOOL",
     title: "The Tool Crate",
     tag: "category:tools-hardware",
     description:
       "Hand tools, hardware, meters, toolboxes, fasteners, repair supplies, and practical workbench finds.",
-    icon: "TOOLS",
   },
   {
+    code: "ODDITY",
     title: "The Oddity Cabinet",
     tag: "category:collectibles-oddities",
     description:
       "Vintage pieces, strange finds, conversation items, memorabilia, decor, and things you do not see every day.",
-    icon: "CABINET",
   },
   {
+    code: "WIRE",
     title: "The Wire Box",
     tag: "category:electronics-gadgets",
     description:
       "Small electronics, chargers, cables, speakers, gadgets, and devices with clear testing notes.",
-    icon: "WIRING",
   },
   {
+    code: "LOCAL",
     title: "The Local Pickup Corner",
     tag: "category:local-pickup",
     description:
       "Large, fragile, heavy, awkward, or low-margin finds available for local pickup only.",
-    icon: "SHIPPING",
-  },
-];
-
-export const featuredProducts = [
-  {
-    name: "Vintage Metal Toolbox",
-    category: "The Tool Crate",
-    price: "$42",
-    condition: "Good Used",
-    status: "One-of-One",
-    source: "Estate Cleanout",
-    note: "Opens and closes properly with visible shop wear and character.",
-  },
-  {
-    name: "Sealed Artisan Soap Bundle",
-    category: "The Home Shelf",
-    price: "$18",
-    condition: "New / Sealed",
-    status: "New Find",
-    source: "Storage Auction",
-    note: "Factory sealed, labeled, and listed only as a personal-care good with no health claims.",
-  },
-  {
-    name: "OEM-Style Trim Piece",
-    category: "The Garage Bin",
-    price: "$29",
-    condition: "Excellent Used",
-    status: "Limited Quantity",
-    source: "Garage Find",
-    note: "Non-safety-critical automotive part with clear photos and visible condition notes.",
   },
 ];
 

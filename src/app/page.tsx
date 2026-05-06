@@ -7,7 +7,8 @@ import { ProcessSection } from "@/components/sections/ProcessSection";
 import { OneAvailableSection } from "@/components/sections/OneAvailableSection";
 import { ClaimedArchiveSection } from "@/components/sections/ClaimedArchiveSection";
 import { JsonLd } from "@/components/seo/JsonLd";
-import { featuredProducts, siteConfig } from "@/data/site";
+import { siteConfig } from "@/data/site";
+import { featuredProducts } from "@/data/featuredProducts";
 
 export default function Home() {
   const itemListElements = featuredProducts.map((product, index) => ({
@@ -15,15 +16,15 @@ export default function Home() {
     position: index + 1,
     item: {
       "@type": "Product",
-      name: product.name,
-      category: product.category,
+      name: product.title,
+      category: product.collection,
       description: product.note,
       offers: {
         "@type": "Offer",
         price: Number(product.price.replace(/[^\d.]/g, "")),
         priceCurrency: "USD",
         availability: "https://schema.org/InStock",
-        url: `${siteConfig.url}/#shop`,
+        url: product.href,
       },
     },
   }));
