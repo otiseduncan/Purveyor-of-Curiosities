@@ -25,7 +25,7 @@ export function CategoriesSection() {
               key={category.title}
               className="rounded-[2rem] border border-bronze/55 bg-espresso/80 p-6 transition hover:-translate-y-1 hover:border-gold/60"
             >
-              <div className="mb-6 inline-flex h-12 min-w-12 items-center justify-center rounded-2xl border border-gold/55 bg-gold/25 px-3 text-xs font-black tracking-[0.08em] text-charcoal">
+              <div className="mb-6 inline-flex min-w-16 items-center justify-center rounded-2xl border border-gold/50 bg-charcoal/70 px-3 py-2 font-sans text-[0.7rem] font-black uppercase tracking-[0.18em] text-gold shadow-inner">
                 {category.code}
               </div>
 
