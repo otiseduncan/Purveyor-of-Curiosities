@@ -60,42 +60,42 @@ export const categories = [
     tag: "category:home-everyday",
     description:
       "Household goods, decor, sealed personal-care items, candles, kitchen finds, and useful everyday products.",
-    icon: "âŒ‚",
+    icon: "HOME",
   },
   {
     title: "The Garage Bin",
     tag: "category:garage-auto",
     description:
       "Automotive accessories, detailing supplies, trim pieces, manuals, and non-safety-critical garage finds.",
-    icon: "â—†",
+    icon: "GARAGE",
   },
   {
     title: "The Tool Crate",
     tag: "category:tools-hardware",
     description:
       "Hand tools, hardware, meters, toolboxes, fasteners, repair supplies, and practical workbench finds.",
-    icon: "âš’",
+    icon: "TOOLS",
   },
   {
     title: "The Oddity Cabinet",
     tag: "category:collectibles-oddities",
     description:
       "Vintage pieces, strange finds, conversation items, memorabilia, decor, and things you do not see every day.",
-    icon: "âœ¦",
+    icon: "CABINET",
   },
   {
     title: "The Wire Box",
     tag: "category:electronics-gadgets",
     description:
       "Small electronics, chargers, cables, speakers, gadgets, and devices with clear testing notes.",
-    icon: "âŒ",
+    icon: "WIRING",
   },
   {
     title: "The Local Pickup Corner",
     tag: "category:local-pickup",
     description:
       "Large, fragile, heavy, awkward, or low-margin finds available for local pickup only.",
-    icon: "âŒ–",
+    icon: "SHIPPING",
   },
 ];
 
