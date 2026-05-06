@@ -33,7 +33,7 @@ export function OneAvailableSection() {
 
               <div className="mt-6">
                 <a
-                  href={${STORE_URL}/collections/all}
+                  href={`${STORE_URL}/collections/all`}
                   className="group inline-flex items-center justify-center gap-2 rounded-full border border-gold bg-gold px-5 py-3 text-sm font-bold text-charcoal transition hover:bg-[#D8AF5A]"
                 >
                   Browse One-of-One Finds
