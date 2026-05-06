@@ -13,7 +13,13 @@ export function Footer() {
 
         <div className="flex flex-wrap gap-3 text-sm text-sand">
           {footerLinks.map((link) => (
-            <a key={link.href} href={link.href} className="hover:text-brass transition-colors">{link.label}</a>
+            <a
+              key={link.href}
+              href={link.href}
+              className="transition hover:text-ivory"
+            >
+              {link.label}
+            </a>
           ))}
         </div>
       </div>
